@@ -2,45 +2,51 @@ body{
     margin: 0;
     font-family: Arial, sans-serif;
 }
+
 .header{
     background-color: #2d7be5;
     color: white;
     text-align: center;
     padding: 20px;
 }
+
 .navbar{
     background-color: #222;
     color: white;
     display: flex;
-    justify-content: space
-between;
+    justify-content: space-between;
     padding: 15px 20px;
 }
+
 .navbar a{
     color: white;
     text-decoration: none;
     margin-left: 15px;
 }
+
 .container{
     display: flex;
     background-color: #f0f0f0;
     padding: 30px;
 }
+
 .column{
     flex: 1;
     padding: 20px;
 }
- 
+
 .line{
     border-left: 2px solid black;
     height: 180px;
 }
+
 .footer{
     background-color: #333;
     color: white;
     text-align: center;
     padding: 15px;
 }
+
 h1, h2{
     text-align: center;
 }
